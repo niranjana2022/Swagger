@@ -7,6 +7,6 @@ public class HelloWorldController {
 
 	@GetMapping("/hello")
 	public String helloWish() {
-		return "Welcome to Swagger API Documentation";
+		return "Hi Welcome to Swagger API Documentation";
 	}
 }
